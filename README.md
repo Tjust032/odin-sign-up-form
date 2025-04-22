@@ -2,6 +2,8 @@
 
 This project is a **Non-responsive sign-up form** built as part of The Odin Project curriculum. It mimics a registration page for a fictional service, complete with modern styling, form validation, and mobile responsiveness.
 
+[Live Link!](https://tjust032.github.io/odin-sign-up-form/)
+
 ## ✨ Features
 
 - 🔒 Validates email, password, phone number, and name fields
