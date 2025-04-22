@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-section">
+            <img class="background-image" src="images/background.jpg" alt="Background Image">
+            <div class="overlay">
+                <div class="logo-container">
+                    <h1>ODIN ROCKS</h1>
+                </div>
+                <img class="logo" src="images/odin-lined.png" alt="Logo">
+            </div>
+        </div>
+        <div class="text-section">
+            <div class="top">
+                <h2 class="first">This is not a real online service! You know you need something like this
+                    to help you realize your deepest dreams. Sign up <em>now</em> to get started.
+                </h2>
+                <h2 class="second">
+                    You <em>know</em> you want to.
+                </h2>
+            </div>
+            <div class="form">
+                <form id="main-form">
+                    <div class="form-container">
+                        <div class="first-part">
+                            <h1> Let's do this!</h1>
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name" placeholder="John" required>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Johndoe@gmail.com" required>
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" minlength="8" maxlength="20" placeholder="Enter a secure password..." required>
+                        </div>
+                        <div class="second-part">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name" placeholder="Doe" required>
+                            <label for="phone_number">Phone Number</label>
+                            <input type="tel" id="phone_number" name="phone_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="111-222-3333" required>
+                            <label for="confirmed_password">Confirm Password</label>
+                            <input type="password" id="conf_password" name="confirmed_password" placeholder="Confirm your password..." required>
+                        </div>
+                        <div class="third-part"></div>
+                    </div>
+                </form>
+            </div>
+            <div class="bottom">
+                <button type="submit" form="main-form">Submit</button>
+                <p>Already a member? <em> Log In </em></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
